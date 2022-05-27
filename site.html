@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <title>İlker Durmuş - Kişisel Web Sitesi</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="İlker Durmuş - Kişisel Web Sitesi">
+    <meta name="author" content="İlker Durmuş">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        body {
+            font: 20px Montserrat, sans-serif;
+            line-height: 1.8;
+            color: #f5f6f7;
+        }
+        
+        p {
+            font-size: 16px;
+        }
+        
+        .margin {
+            margin-bottom: 45px;
+        }
+        
+        .bg-1 {
+            background-color: #2dde98;
+            /* Green */
+            color: #333333;
+            /* black */
+        }
+        
+        .bg-2 {
+            background-color: #474e5d;
+            /* Dark Blue */
+            color: #ffffff;
+        }
+        
+        .bg-3 {
+            background-color: #ffffff;
+            /* White */
+            color: #555555;
+        }
+        
+        .bg-4 {
+            background-color: #4C3173;
+            /* Blue Diamond */
+            color: #fff;
+        }
+        
+        .bg-5 {
+            background-color: #ecebe8;
+            /* Gray */
+            color: #333;
+        }
+        
+        .container-fluid {
+            padding-top: 70px;
+            padding-bottom: 70px;
+        }
+        
+        .navbar {
+            padding-top: 15px;
+            padding-bottom: 15px;
+            border: 0;
+            border-radius: 0;
+            margin-bottom: 0;
+            font-size: 12px;
+            letter-spacing: 5px;
+        }
+        
+        .navbar-nav li a:hover {
+            color: #4C3173 !important;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">İlker Durmuş</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#kimdir">Ben kimim?</a></li>
+                    <li><a href="#neyapar">Neler Yaparım?</a></li>
+                    <li><a href="#galeri">Galeri</a></li>
+                    <li><a href="#iletisim">İletişim</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Birinci Container -->
+    <div id="kimdir" class="container-fluid bg-1 text-center">
+        <h3 class="margin">Merhaba, Ben İlker</h3>
+        <img src="https://pbs.twimg.com/profile_images/1526988635274346496/ScdDILab_400x400.jpg" class="img-responsive img-circle margin" style="display:inline" alt="ilker" width="350" height="350">
+        <h3>Kişisel web sayfama hoşgeldiniz</h3>
+    </div>
+
+    <!-- ikinci Container -->
+    <div id="neyapar" class="container-fluid bg-2 text-center">
+        <h3 class="margin">Neler Yaparım?</h3>
+        <p>Genellikle bilgisayar oyunları oynarım kripto para piyasasını takip etmek de hobilerim arasında. </p>
+        
+    </div>
+
+    <!-- Third Container (Grid) -->
+    <div id="galeri" class="container-fluid bg-3 text-center">
+        <h3 class="margin">Galeri</h3>
+        <br>
+        <div class="row">
+            <div class="col-sm-4">
+                <p>19 Mayıs 1938, Mustafa Kemal Atatürk’ün katıldığı son 19 Mayıs töreniydi. Sağlık durumunun kötü olmasına rağmen katılmak istemişti. Gurur ve heyecanla ülkesini emanet ettiği gençleri son bir kez izledi. Saygıyla…
+                </p>
+                <img src="https://pbs.twimg.com/media/FTGpH6fWIAA8l5K?format=jpg&name=small" class="img-responsive margin" style="width:100%" alt="Atatürk">
+            </div>
+            <div class="col-sm-4">
+                <p>Almanya'nın Sovyetler Birliği'ne girdiği anonsunu dinleyen Moskovalılar - 22 Haziran 1941.
+                    📸: Yevgeniy Haldey</p>
+                <img src="https://pbs.twimg.com/media/FTQ7uJPWAAAAyHM?format=png&name=small" class="img-responsive margin" style="width:100%" alt="germany">
+            </div>
+            <div class="col-sm-4">
+                <p>Ukrayna bozkırlarında ilerleyen Alman piyadesi - Barbarossa Harekâtı, Temmuz 1941.
+                </p>
+                <img src="https://pbs.twimg.com/media/FSQk381XEAAdmTW?format=png&name=small" class="img-responsive margin" style="width:100%" alt="python">
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact -->
+    <div id="iletisim" class="container-fluid bg-5 text-center">
+        <h3 class="margin">İletişim</h3>
+        <br>
+     
+            <div class="col-sm-7 ">
+                <div class="row">
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="name" name="name" placeholder="İsim" type="text" required>
+                    </div>
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="email" name="email" placeholder="Mail" type="email" required>
+                    </div>
+                </div>
+                <textarea class="form-control" id="comments" name="comments" placeholder="Mesaj" rows="5"></textarea>
+                <br>
+                <div class="row">
+                    <div class="col-sm-12 form-group">
+                        <button class="btn btn-default pull-right" type="submit">Gönder</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="container-fluid bg-4 text-center">
+        <p>İlker durmuş 2022</p>
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+        <i class="fa fa-github" aria-hidden="true"></i>
+        <i class="fa fa-skype" aria-hidden="true"></i>
+        <i class="fa fa-linkedin" aria-hidden="true"></i>
+    </br>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Signature_of_Mustafa_Kemal_Atat%C3%BCrk.svg/572px-Signature_of_Mustafa_Kemal_Atat%C3%BCrk.svg.png" </img>
+    </footer>
+
+</body>
+
+</html>
